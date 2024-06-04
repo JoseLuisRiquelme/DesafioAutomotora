@@ -1,7 +1,7 @@
 public class Persona {
-    String rut;
-    String nombre;
-    int edad;
+    private String rut;
+    private String nombre;
+    private int edad;
 
     public Persona(String rut, String nombre, int edad) {
         this.rut = rut;

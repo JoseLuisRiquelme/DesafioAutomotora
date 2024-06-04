@@ -1,0 +1,4 @@
+Patente vehiculo : {pp-ll-55 }
+Edad del cliente: { 20 anhos}
+Fecha venta: { 03062024 }
+Nombre venta : { Navidad }

@@ -37,5 +37,6 @@ public class Tienda {
     public void existeStock(int stock){
         setStock(stock);
         System.out.printf("Cantidad de stock es %d",getStock());
+        System.out.println(" ");
     }
 }

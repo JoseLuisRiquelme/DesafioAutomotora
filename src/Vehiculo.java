@@ -1,7 +1,7 @@
 public class Vehiculo {
 
-    String color;
-    String patente;
+   private String color;
+    private String patente;
 
     public Vehiculo(String color, String patente) {
         this.color = color;
@@ -22,5 +22,18 @@ public class Vehiculo {
 
     public void setPatente(String patente) {
         this.patente = patente;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehiculo = {" +
+                "color:'" + color + '\'' +
+                ", patente:'" + patente + '\'' +
+                '}';
+    }
+
+    public String toStringPatente(){
+        return "Patente vehiculo : {" + patente+
+                " }";
     }
 }

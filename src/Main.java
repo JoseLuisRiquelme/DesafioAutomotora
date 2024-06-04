@@ -23,7 +23,9 @@ public class Main {
 
         tienda.existeStock(44);
 
+        LibroVenta ventas = new LibroVenta("Navidad","03062024");
 
+        ventas.guardarVenta(cliente,vehiculo);
 
     }
 }
